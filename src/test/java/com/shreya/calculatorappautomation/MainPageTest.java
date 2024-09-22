@@ -26,7 +26,7 @@ public class MainPageTest {
     public void setUp() {
         // Fix the issue https://github.com/SeleniumHQ/selenium/issues/11750
         Configuration.browserCapabilities = new ChromeOptions().addArguments("--remote-allow-origins=*");
-        open("http://localhost:63342/calculator-app/index.html?_ijt=de5c0772s1f4hip4h73sea3nt7&_ij_reload=RELOAD_ON_SAVE");
+        open("http://localhost:54994/test_automation_project/calculator-app/index.html?_ijt=k6uhabegchtqnd7cuqladg8q0f&_ij_reload=RELOAD_ON_SAVE");
     }
 
     @Test
